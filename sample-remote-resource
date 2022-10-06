@@ -1,9 +1,9 @@
 apiVersion: "kapitan.razee.io/v1alpha1"
 kind: RemoteResource
 metadata:
-  name: remoteconfigmap
+  name: remotedeploymentrazee
   namespace: razeedemo
 spec:
   requests:
     - options:
-        url: https://raw.githubusercontent.com/mckaymic/RazeeDemo/master/configmap.yaml
+        url: https://raw.githubusercontent.com/bgshri/razee-demo/main/selenium-hub-deploy.yaml
